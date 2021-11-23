@@ -94,6 +94,9 @@
                 margin-bottom: 20px;
             }
         }
+        &_mt25 {
+            margin-top: 22px;
+        }
     }
     .carousel {
         padding: 81px 0;
@@ -222,6 +225,25 @@
                 width: 45px;
                 height: 45px;
             }
+        }
+    }
+    .modal {
+        min-height: 356px;
+        width: 320px;
+        padding: 30px 35px 35px 35px;
+        &__close {
+            right: -40px;
+            font-size: 34px;
+            line-height: 15px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        &_mini {
+            min-height: 140px;
         }
     }
 }
@@ -360,9 +382,9 @@
         height: 630px;
         &__info {
             top: 48px;
-            height: 222px;
+            height: 210px;
             width: 300px;
-            padding: 35px 48px 43px 48px;
+            padding: 31px 48px 36px 48px;
         }
         &__addr {
             margin-bottom: 22px;
@@ -608,9 +630,9 @@
         height: 630px;
         &__info {
             top: 48px;
-            height: 182px;
-            width: 256px;
-            padding: 28px 48px 32px 48px;
+            height: 178px;
+            width: 230px;
+            padding: 28px 45px 28px 45px;
         }
         &__addr {
             margin-bottom: 15px;
@@ -628,6 +650,26 @@
                 width: 35px;
                 height: 35px;
             }
+        }
+    }
+    .modal {
+        min-height: 356px;
+        width: 320px;
+        padding: 30px 35px 35px 35px;
+        &__close {
+            top: 10px;
+            right: 10px;
+            font-size: 34px;
+            line-height: 15px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        &_mini {
+            min-height: 140px;
         }
     }
 }
